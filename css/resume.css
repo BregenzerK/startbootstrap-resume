@@ -22,7 +22,7 @@ h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40; }
+  color: ; }
 
 h1 {
   font-size: 6rem;
@@ -37,6 +37,9 @@ h2 {
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem; }
 
+.list-social-icons{
+	list-style: none;}
+  
 .list-social-icons a {
   color: #495057; }
   .list-social-icons a:hover {
@@ -45,9 +48,23 @@ h2 {
     font-size: 1.75rem; }
 
 .list-icons {
-  font-size: 3rem; }
-  .list-icons .list-inline-item i:hover {
-    color: #BD5D38; }
+ font-size: 3rem; 
+}
+.list-icons .list-items {
+   list-style: none;
+}
+.list-icons .list-items a {
+   list-style: none;
+   font-size: 1.3rem;
+   margin-left: 80px;
+   color: #343a40; 
+}
+.list-icons .list-items a:hover {
+   list-style: none;
+   font-size: 1.3rem;
+   margin-left: 80px;
+   color: #343a40; 
+}
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
